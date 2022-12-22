@@ -127,4 +127,4 @@ media
 	db.sqlite3
 	db copy.sqlite3
 	static/
-.vscode
+projeto
