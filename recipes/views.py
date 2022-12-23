@@ -7,7 +7,9 @@ from django.urls import path
 
 def home(request):
     # Ele deve retornar um HTTP Response
-    return HttpResponse('Home 1')
+    return render(request, 'recipes/home.html', context={
+        'name': 'samuel'
+    })
 
 
 def sobre(request):
