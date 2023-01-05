@@ -14,9 +14,9 @@ def home(request):
 
 def sobre(request):
     # Ele deve retornar um HTTP Response
-    return HttpResponse('sobre 1')
+    return render(request, 'recipes/sobre.html')
 
 
 def contato(request):
     # Ele deve retornar um HTTP Response
-    return HttpResponse('contato 1')
+    return render(request, 'recipes/contato.html')
